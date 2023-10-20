@@ -38,7 +38,7 @@ final class TipCalculationTest: XCTestCase {
     
     /* Assert */
     XCTAssertNil(tip)
-    XCTAssertNil(tip, "An amount bill negative")
+    XCTAssertNil(tip, "This assert sends nil when receive it an amount bill negative")
   }
 
 }
