@@ -10,6 +10,7 @@ import Foundation
 class NameValidation {
   
   func validateFirstName(name: String) -> Bool {
+    
     var returnValue = true
     
     if name.isEmpty {
