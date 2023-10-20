@@ -12,8 +12,8 @@ import XCTest
 
 final class SignUp_Testing_Tests: XCTestCase {
   
-  var sutName = NameValidation()
-  var sutPassword = PasswordValidation()
+  var sutName = NameValidation() // System or Object under test
+  var sutPassword = PasswordValidation() // System or Object under test
 
   func testSignUp_whenNameIsGiven_ShouldPass() {
     
