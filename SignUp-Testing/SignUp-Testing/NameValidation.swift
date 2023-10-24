@@ -14,9 +14,13 @@ class NameValidation {
     var returnValue = true
     
     if name.isEmpty {
+      
       returnValue = false
-    } else if name.count < 3 || name.count > 10 {
+      
+    } else if name.count < ParametersConstants.firstNameMinLenght || name.count > ParametersConstants.firstNameMaxLenght {
+      
       returnValue = false
+      
     }
     return returnValue
   }

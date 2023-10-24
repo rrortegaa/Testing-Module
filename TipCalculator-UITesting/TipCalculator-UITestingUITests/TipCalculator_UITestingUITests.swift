@@ -42,13 +42,13 @@ final class TipCalculator_UITestingUITests: XCTestCase {
     let calculateButton = app.staticTexts["Calcular"]
     XCTAssertTrue(calculateButton.exists, "Este botón no existe o ha sido modificado y es requerido para calcular la cuenta individual")
     calculateButton.tap()
-    /* /* Son equivalentes */
+        /* /* Son equivalentes */
     app/*@START_MENU_TOKEN@*/.staticTexts["Calcular"]/*[[".buttons[\"Calcular\"].staticTexts[\"Calcular\"]",".staticTexts[\"Calcular\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
     XCUIApplication().staticTexts["Calcular"].tap()
     XCTAssertTrue(XCUIApplication().staticTexts["Calcular"].exists)
     */
     
-    app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
+        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
 
     }
 

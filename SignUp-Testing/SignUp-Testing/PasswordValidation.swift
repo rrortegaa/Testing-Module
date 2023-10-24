@@ -11,12 +11,7 @@ class PasswordValidation {
   
   func validatePassword(password: String, storedPassword: String) -> Bool {
     
-    var returnValue = false
-    
-    if password == storedPassword {
-      returnValue = true
-    }
-    return returnValue
-    
+    return password == storedPassword
+  
   }
 }

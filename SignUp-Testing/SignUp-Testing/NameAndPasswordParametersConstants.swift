@@ -8,5 +8,6 @@
 import Foundation
 
 struct ParametersConstants {
-  
+  static let firstNameMinLenght = 3
+  static let firstNameMaxLenght = 10
 }
