@@ -16,6 +16,7 @@
 		9AB9BBC22AE2167C004E97BC /* SignUp_Testing_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9BBC12AE2167C004E97BC /* SignUp_Testing_Tests.swift */; };
 		9AB9BBC92AE21A0D004E97BC /* NameValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9BBC82AE21A0D004E97BC /* NameValidation.swift */; };
 		9AB9BBCB2AE22E54004E97BC /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9BBCA2AE22E54004E97BC /* PasswordValidation.swift */; };
+		9AB9BBFC2AE37E50004E97BC /* NameAndPasswordParametersConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9BBFB2AE37E50004E97BC /* NameAndPasswordParametersConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		9AB9BBC12AE2167C004E97BC /* SignUp_Testing_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_Testing_Tests.swift; sourceTree = "<group>"; };
 		9AB9BBC82AE21A0D004E97BC /* NameValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameValidation.swift; sourceTree = "<group>"; };
 		9AB9BBCA2AE22E54004E97BC /* PasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidation.swift; sourceTree = "<group>"; };
+		9AB9BBFB2AE37E50004E97BC /* NameAndPasswordParametersConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndPasswordParametersConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				9AB9BBB52AE215B3004E97BC /* Info.plist */,
 				9AB9BBC82AE21A0D004E97BC /* NameValidation.swift */,
 				9AB9BBCA2AE22E54004E97BC /* PasswordValidation.swift */,
+				9AB9BBFB2AE37E50004E97BC /* NameAndPasswordParametersConstants.swift */,
 			);
 			path = "SignUp-Testing";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				9AB9BBAC2AE215B2004E97BC /* ViewController.swift in Sources */,
 				9AB9BBCB2AE22E54004E97BC /* PasswordValidation.swift in Sources */,
 				9AB9BBA82AE215B2004E97BC /* AppDelegate.swift in Sources */,
+				9AB9BBFC2AE37E50004E97BC /* NameAndPasswordParametersConstants.swift in Sources */,
 				9AB9BBAA2AE215B2004E97BC /* SceneDelegate.swift in Sources */,
 				9AB9BBC92AE21A0D004E97BC /* NameValidation.swift in Sources */,
 			);

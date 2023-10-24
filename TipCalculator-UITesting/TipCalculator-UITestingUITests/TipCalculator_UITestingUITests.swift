@@ -40,7 +40,7 @@ final class TipCalculator_UITestingUITests: XCTestCase {
     tipPercentageInput.typeText("20") // Given -> parámetro a probar
     
     let calculateButton = app.staticTexts["Calcular"]
-    XCTAssertTrue(calculateButton.exists, "Este botón no existe o ha sido modificado")
+    XCTAssertTrue(calculateButton.exists, "Este botón no existe o ha sido modificado y es requerido para calcular la cuenta individual")
     calculateButton.tap()
     /* /* Son equivalentes */
     app/*@START_MENU_TOKEN@*/.staticTexts["Calcular"]/*[[".buttons[\"Calcular\"].staticTexts[\"Calcular\"]",".staticTexts[\"Calcular\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
